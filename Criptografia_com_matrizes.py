@@ -23,7 +23,8 @@ def texto2numeros(texto):
     nu = []
     # para deixar a matriz com duas linhas completa:
     if(len(texto)%2 != 0):
-        texto = texto+'_' # Precisamos add _ para completar matriz!
+        texto = texto+'_' 
+        print('Precisamos add _ para completar matriz!')
     # transformar letras em números no dicionário
     for ii in texto:
         for j in cod:
